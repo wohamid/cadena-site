@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --cadena-primary: #004040;
+  --cadena-primary-light: #006666;
+  --cadena-primary-dark: #002828;
+  --cadena-accent: #00b8b8;
+  --cadena-gray-50: #f9fafb;
+  --cadena-gray-100: #f3f4f6;
+  --cadena-gray-200: #e5e7eb;
+  --cadena-gray-300: #d1d5db;
+  --cadena-gray-400: #9ca3af;
+  --cadena-gray-500: #6b7280;
+  --cadena-gray-600: #4b5563;
+  --cadena-gray-700: #374151;
+  --cadena-gray-800: #1f2937;
+  --cadena-gray-900: #111827;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-cadena: var(--cadena-primary);
+  --color-cadena-light: var(--cadena-primary-light);
+  --color-cadena-dark: var(--cadena-primary-dark);
+  --color-cadena-accent: var(--cadena-accent);
+  --font-sans: 'Poppins', system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cadena-gray-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cadena-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cadena-primary-light);
+}
