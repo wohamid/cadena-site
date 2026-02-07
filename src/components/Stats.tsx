@@ -29,7 +29,7 @@ export default function Stats() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-[#00FF66] font-semibold text-sm uppercase tracking-wider">Proven Results</span>
+          <span className="text-[#CCFF00] font-semibold text-sm uppercase tracking-wider">Proven Results</span>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mt-4 mb-6">
             Numbers That Speak for Themselves
           </h2>
@@ -45,7 +45,7 @@ export default function Stats() {
               key={index}
               className="text-center p-8 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10"
             >
-              <div className="text-4xl sm:text-5xl font-bold text-[#00FF66] mb-2">
+              <div className="text-4xl sm:text-5xl font-bold text-[#CCFF00] mb-2">
                 {stat.value}
               </div>
               <div className="text-lg font-semibold text-white mb-1">
