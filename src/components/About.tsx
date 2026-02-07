@@ -9,7 +9,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left content */}
           <div>
-            <span className="text-[#00b8b8] font-semibold text-sm uppercase tracking-wider">About Cadena</span>
+            <span className="text-[#00FF66] font-semibold text-sm uppercase tracking-wider">About Cadena</span>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-4 mb-6">
               Your SAM Experts. Your AI Advantage.
             </h2>

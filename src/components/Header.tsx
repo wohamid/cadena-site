@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Header() {
@@ -21,13 +20,10 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image
-              src="/images/logo.png"
+            <img
+              src="/images/logo.svg"
               alt="Cadena"
-              width={180}
-              height={50}
               className="h-10 w-auto"
-              priority
             />
           </Link>
 

@@ -42,7 +42,7 @@ export default function Hero() {
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Put Your SAM on{' '}
-              <span className="text-[#00b8b8]">Autopilot</span>
+              <span className="text-[#00FF66]">Autopilot</span>
             </h1>
 
             <p className="text-xl sm:text-2xl text-gray-200 mb-8 leading-relaxed">
@@ -52,19 +52,19 @@ export default function Hero() {
             {/* Key benefits */}
             <div className="flex flex-wrap gap-6 mb-10">
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#00b8b8]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#00FF66]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 <span className="text-gray-200">AI-Powered Automation</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#00b8b8]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#00FF66]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 <span className="text-gray-200">40% Cost Reduction</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#00b8b8]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#00FF66]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 <span className="text-gray-200">100% License Visibility</span>
@@ -96,16 +96,16 @@ export default function Hero() {
             <div className="relative w-96 h-96">
               {/* Animated circles representing automation */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-72 h-72 rounded-full border-2 border-[#00b8b8]/30 animate-pulse" />
+                <div className="w-72 h-72 rounded-full border-2 border-[#00FF66]/30 animate-pulse" />
               </div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-56 h-56 rounded-full border-2 border-[#00b8b8]/50 animate-pulse" style={{ animationDelay: '0.5s' }} />
+                <div className="w-56 h-56 rounded-full border-2 border-[#00FF66]/50 animate-pulse" style={{ animationDelay: '0.5s' }} />
               </div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-40 h-40 rounded-full border-2 border-[#00b8b8]/70 animate-pulse" style={{ animationDelay: '1s' }} />
+                <div className="w-40 h-40 rounded-full border-2 border-[#00FF66]/70 animate-pulse" style={{ animationDelay: '1s' }} />
               </div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-24 h-24 rounded-full bg-[#00b8b8] flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-[#00FF66] flex items-center justify-center">
                   <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
