@@ -9,6 +9,7 @@ export default function Header() {
 
   const navLinks = [
     { href: '#services', label: 'Services' },
+    { href: '/resources/guides', label: 'Guides' },
     { href: '#about', label: 'About' },
     { href: '#results', label: 'Results' },
     { href: '#contact', label: 'Contact' },
