@@ -39,7 +39,7 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Left content */}
           <div>
-            <span className="text-[#00b8b8] font-semibold text-sm uppercase tracking-wider">Get Started</span>
+            <span className="text-[#ccff00] font-semibold text-sm uppercase tracking-wider">Get Started</span>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-4 mb-6">
               Request Your Free SAM Assessment
             </h2>
@@ -59,7 +59,7 @@ export default function Contact() {
                   'No obligation—just actionable insights',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-[#00b8b8] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#ccff00] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-gray-600">{item}</span>
@@ -86,8 +86,8 @@ export default function Contact() {
           <div className="bg-gray-50 rounded-2xl p-8">
             {submitted ? (
               <div className="text-center py-12">
-                <div className="w-16 h-16 bg-[#00b8b8]/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-8 h-8 text-[#00b8b8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-[#ccff00]/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-8 h-8 text-[#ccff00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>

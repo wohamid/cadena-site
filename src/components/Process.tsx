@@ -33,7 +33,7 @@ export default function Process() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-[#00b8b8] font-semibold text-sm uppercase tracking-wider">Our Process</span>
+          <span className="text-[#ccff00] font-semibold text-sm uppercase tracking-wider">Our Process</span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-4 mb-6">
             From Assessment to Autopilot in 12 Weeks
           </h2>
@@ -45,7 +45,7 @@ export default function Process() {
         {/* Process steps */}
         <div className="relative">
           {/* Connection line */}
-          <div className="hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-[#004040] via-[#00b8b8] to-[#004040]" />
+          <div className="hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-[#004040] via-[#ccff00] to-[#004040]" />
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
@@ -63,7 +63,7 @@ export default function Process() {
                 <ul className="space-y-2">
                   {step.details.map((detail, i) => (
                     <li key={i} className="flex items-center gap-2 text-sm text-gray-500">
-                      <div className="w-1.5 h-1.5 rounded-full bg-[#00b8b8]" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-[#ccff00]" />
                       {detail}
                     </li>
                   ))}
