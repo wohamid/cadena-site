@@ -350,6 +350,303 @@ Build the workflow:
 **Quick Win:** Run a report on M365 subscriptions with no activity in 90 days. Share the potential savings number with your leadership. That's your SAM business case.
     `,
   },
+  {
+    slug: 'sql-server-licensing-vm-host-relationships',
+    title: 'SQL Server Licensing in SAM Pro: VM-to-Host Relationships Explained',
+    description: 'SQL Server licensing depends on physical host CPUs, not VMs. Learn how to set up VM-to-host relationships for accurate compliance.',
+    category: 'microsoft',
+    readTime: '7 min',
+    publishedAt: '2026-02-11',
+    seoKeywords: ['SQL Server SAM Pro', 'VM host relationship ServiceNow', 'SQL Server licensing compliance', 'physical core licensing'],
+    content: `
+## The SQL Server Licensing Challenge
+
+SQL Server is one of the most complex products to license correctly. Why? Because in most environments, it's licensed based on the **physical host's CPU cores**—not the virtual machine.
+
+If SAM Pro doesn't know which physical host your VM runs on, it can't calculate compliance. You'll see the dreaded "Missing relationship to physical host" error.
+
+### Why Physical Host Matters
+
+Microsoft's SQL Server licensing (Enterprise and Standard) typically works like this:
+
+| Edition | Licensing Model | What Gets Counted |
+|---------|-----------------|-------------------|
+| Enterprise | Per Core | All cores on physical host |
+| Standard | Per Core or Server+CAL | Physical cores or server |
+| Developer/Express | Free (restrictions apply) | N/A |
+
+**The Catch:** If you're running SQL on VMware and using per-core licensing, you need to license ALL physical cores on the host—not just the vCPUs allocated to the VM.
+
+### Setting Up VM-to-Host Relationships
+
+For SAM Pro to calculate this correctly, it needs three things:
+
+1. **Discovered VMs** — Your SQL servers as Configuration Items
+2. **Discovered Hosts** — The physical ESXi/Hyper-V hosts
+3. **Relationship records** — Connecting VMs to their hosts
+
+#### Check Your Relationships
+
+Navigate to the CI record for your SQL Server VM. Look for these relationship types:
+- Virtualized by
+- Instantiates
+- Runs on::Runs
+
+If these are missing, Discovery isn't capturing the virtualization layer.
+
+### Working with Your ITOM Team
+
+This is typically a Discovery configuration issue. Work with your ServiceNow Discovery/ITOM team to:
+
+1. **Verify vCenter credentials** — Discovery needs read access to VMware
+2. **Check discovery schedules** — Hosts and VMs should be in the same schedule
+3. **Validate MID Server access** — Network access to vCenter API
+
+### The Soft Licensing Option
+
+If you can't get VM-to-host relationships working immediately, SQL Server offers a "soft licensing" alternative:
+
+> License only the vCPUs allocated to the VM (minimum 4 cores), provided you have **License Mobility with Software Assurance** and meet Microsoft's virtualization requirements.
+
+This is more complex to prove in an audit, but it's an option.
+
+### Manual Relationship Entry
+
+As a last resort, you can manually create relationships:
+
+1. Navigate to the VM's CI record
+2. Go to Related Items > CI Relationships
+3. Add a "Virtualized by" relationship to the physical host
+
+**Warning:** Manual relationships don't update automatically. If VMs move (vMotion), you'll have stale data.
+
+### Reconciliation Considerations
+
+Once relationships are in place:
+
+1. **Re-run reconciliation** — SAM Pro needs to recalculate
+2. **Check the metric** — Ensure your entitlement uses "Per Core" metric
+3. **Verify core counts** — Physical host core count should appear in compliance
+
+---
+
+**Pro Tip:** Use the "Products with Installs" diagnostic view. It will tell you exactly why a SQL Server install isn't being licensed—including missing host relationships.
+    `,
+  },
+  {
+    slug: 'acc-software-metering-setup-guide',
+    title: 'ACC Software Metering: Complete Setup Guide for Reclamation',
+    description: 'Agent Client Collector (ACC) provides software usage data for reclamation. Here is how to set it up and start identifying unused licenses.',
+    category: 'getting-started',
+    readTime: '6 min',
+    publishedAt: '2026-02-12',
+    seoKeywords: ['ACC software metering', 'ServiceNow Agent Client Collector', 'software usage tracking', 'license reclamation setup'],
+    content: `
+## What is ACC Software Metering?
+
+Agent Client Collector (ACC) is ServiceNow's endpoint agent that collects software usage data. Unlike simple discovery (which tells you what's installed), metering tells you **what's actually being used**.
+
+This is the foundation for reclamation—you can't reclaim unused licenses if you don't know which ones are unused.
+
+### ACC vs SCCM Metering
+
+You have two main options for usage data:
+
+| Source | Pros | Cons |
+|--------|------|------|
+| ACC | Native ServiceNow, real-time | Requires agent deployment |
+| SCCM | Already deployed, mature | Integration complexity, data delays |
+
+**Recommendation:** If you're starting fresh, use ACC. If you have SCCM with metering already enabled, use the integration.
+
+### Setting Up ACC for Metering
+
+#### Step 1: Verify ACC Deployment
+
+ACC must be installed on endpoints. Check your deployment status:
+- Navigate to **Agent Client Collector > Devices**
+- Verify agents are checking in (last contact within 24 hours)
+
+#### Step 2: Enable Software Metering Policy
+
+1. Go to **Agent Client Collector > Policies**
+2. Find or create a policy for your Windows devices
+3. Enable the **Software Usage** capability
+4. Deploy the policy to relevant device groups
+
+#### Step 3: Configure Metering Rules
+
+Not all software needs metering. Focus on high-value applications:
+
+1. Navigate to **License Operations > Metering**
+2. Create rules for specific software models
+3. Define the executables to track
+
+**Example:** For Adobe Acrobat Pro:
+- Software Model: Adobe Acrobat Pro DC
+- Executable: Acrobat.exe
+
+### Understanding Usage Data Flow
+
+Once metering is active, usage data flows through:
+
+ACC Agent → MID Server → Software Usage Table → Reclamation Engine
+
+**Timeline:**
+- Usage data collection: Continuous
+- Data aggregation: Daily
+- Reclamation candidate generation: Based on your rule threshold
+
+### Creating Your First Reclamation Rule
+
+1. Navigate to **License Operations > Reclamation Rules**
+2. Click "New"
+3. Configure:
+   - **Software Model:** Select the product
+   - **Usage Threshold:** Days without activity (60-90 recommended)
+   - **Metric:** Last activity date
+4. Save and activate
+
+### What Happens Next
+
+Once the rule is active and usage data flows in:
+
+1. **Reclamation candidates appear** in the workspace
+2. **Potential savings** calculated automatically
+3. **Workflow options** available (notify user, auto-reclaim, etc.)
+
+### Common Setup Issues
+
+**No usage data appearing:**
+- Verify ACC agent is running on endpoints
+- Check policy deployment status
+- Confirm MID Server connectivity
+
+**Wrong usage dates:**
+- Ensure clocks are synchronized (NTP)
+- Check agent version compatibility
+
+**Missing software models:**
+- Metering requires the software model to exist
+- Verify discovery is creating install records
+
+### Best Practices
+
+1. **Start small** — Pick 5-10 high-value applications
+2. **Pilot first** — Test on a subset of devices
+3. **Set reasonable thresholds** — 60 days is aggressive; start at 90
+4. **Communicate** — Tell users before reclaiming licenses
+
+---
+
+**Quick Win:** Adobe Creative Cloud single apps (Photoshop, Illustrator) are perfect first targets. High cost, often underused, easy to reclaim.
+    `,
+  },
+  {
+    slug: 'published-products-phased-implementation',
+    title: 'Published Products: How to Do Phased SAM Implementation',
+    description: 'Do not boil the ocean. Use SAM Pro Published Products feature to focus on what matters and gradually expand your program.',
+    category: 'getting-started',
+    readTime: '5 min',
+    publishedAt: '2026-02-13',
+    seoKeywords: ['SAM Pro published products', 'phased SAM implementation', 'software asset management rollout', 'SAM program maturity'],
+    content: `
+## The "Everything at Once" Mistake
+
+We see it constantly: a company buys SAM Pro, imports all their entitlement data, sets up every integration, and... gets overwhelmed. 
+
+The workspace shows hundreds of products in various compliance states. Leadership asks "are we compliant?" and you can't give a clear answer because you haven't actually validated any of the data.
+
+### Enter Published Products
+
+Published Products is SAM Pro's answer to phased implementation. It lets you:
+
+1. **Focus the workspace** on only the products you're actively managing
+2. **Hide the noise** from products you haven't validated yet
+3. **Gradually expand** as your program matures
+
+### How It Works
+
+When you "publish" a product:
+- It appears in the SAM Workspace
+- It's included in compliance calculations
+- It shows up in executive dashboards
+- Cost data appears in IT Cost Management views
+
+Unpublished products still exist—they're just filtered out of the main views.
+
+### Enabling Published Products
+
+1. Navigate to **SAM Administration > Settings**
+2. Find the "Published Products" system property
+3. Enable it
+
+Once enabled, the workspace will initially show nothing (because nothing is published yet).
+
+### Publishing Your First Products
+
+1. Go to **License Operations > SAM Implementation**
+2. You'll see a list of all products with compliance data
+3. Select products you want to actively manage
+4. Click "Publish"
+
+### Recommended Publishing Order
+
+Start with high-confidence, high-value products:
+
+**Phase 1 (Week 1-2):**
+- Microsoft 365 (direct integration = clean data)
+- Adobe Creative Cloud
+- Your top 5 SaaS apps by spend
+
+**Phase 2 (Month 1):**
+- Windows Server/Client
+- SQL Server
+- Other Microsoft on-prem
+
+**Phase 3 (Month 2-3):**
+- Oracle (if you have it)
+- IBM
+- Other complex publishers
+
+**Phase 4 (Ongoing):**
+- Remaining publishers
+- Low-risk, low-spend software
+
+### The Validation Step
+
+Before publishing, validate each product:
+
+- Entitlements match your contracts
+- Discovery is capturing all installs
+- Software model is correct
+- License metric is accurate
+- Compliance position makes sense
+
+If something looks wrong, fix it before publishing. Don't publish garbage data.
+
+### Communicating Progress
+
+Published Products gives you a clear story for leadership:
+
+> "We're actively managing compliance for 15 publishers representing 80% of our software spend. Our compliance position for those publishers is X. We're adding 5 more publishers next month."
+
+That's much better than "we have 500 products in the system and most of them show issues."
+
+### When to Unpublish
+
+Sometimes you need to unpublish:
+- Major contract change requiring re-validation
+- Data quality issue discovered
+- Product being retired
+
+Unpublishing doesn't delete data—it just hides it from the workspace until you're ready.
+
+---
+
+**Pro Tip:** Create a "SAM Implementation Roadmap" document listing which products you'll publish each month. Share it with stakeholders so they know what to expect.
+    `,
+  },
 ];
 
 export function getGuideBySlug(slug: string): Guide | undefined {
