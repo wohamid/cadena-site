@@ -67,6 +67,20 @@ export default function SoftwareRationalizationPage() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-[#004040] via-[#003333] to-[#002020]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
+            <div className="flex items-center gap-4 mb-6">
+              <Link 
+                href="/services"
+                className="inline-flex items-center text-gray-300 hover:text-white"
+              >
+                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                All Services
+              </Link>
+              <span className="px-3 py-1 bg-[#ccff00] text-[#004040] text-xs font-bold uppercase tracking-wider rounded-full">
+                Cost & Governance
+              </span>
+            </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
               Headcount dropped 20%.{' '}
               <span className="text-[#ccff00]">Your software spend didn&apos;t.</span>
