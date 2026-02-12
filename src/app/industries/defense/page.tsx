@@ -33,10 +33,9 @@ export default function DefenseIndustryPage() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-[#004040] via-[#003333] to-[#002020]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <Link href="/industries" className="inline-flex items-center text-gray-300 hover:text-white mb-6">
-              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
-              All Industries
-            </Link>
+            <div className="mb-6">
+              <Link href="/industries" className="inline-flex items-center text-gray-300 hover:text-white"><svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>All Industries</Link>
+            </div>
             <span className="inline-block px-3 py-1 bg-[#ccff00] text-[#004040] text-xs font-bold uppercase tracking-wider rounded-full mb-4">Defense</span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">SAM Pro for Defense</h1>
             <p className="text-xl text-gray-200 leading-relaxed mb-8">Classified environments. ITAR compliance. CMMC requirements. Weapons system software. Defense SAM requires specialized methodology for high-security, highly regulated environments.</p>
