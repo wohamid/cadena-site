@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const shadowAITypes = [
   {
     title: 'Standalone AI SaaS',
-    description: 'ChatGPT Plus, Midjourney, Jasper, Perplexity—on corporate cards or personal accounts with company data. Discoverable through expense data and SaaS management integration.',
+    description: 'ChatGPT Plus, Midjourney, Jasper, Perplexity-on corporate cards or personal accounts with company data. Discoverable through expense data and SaaS management integration.',
     examples: ['ChatGPT Plus/Team', 'Midjourney', 'Jasper', 'Perplexity Pro', 'Anthropic Claude'],
   },
   {
@@ -60,7 +60,7 @@ export default function AISoftwareAssetManagement() {
               Your employees are buying AI tools you don&apos;t know about. We find them.
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              $300B+ in AI infrastructure spending is cascading into every enterprise. The average large company has adopted 30-50 AI tools in the last two years—most without SAM visibility. Add AI-powered OT tools on factory floors, and the blind spots multiply.
+              $300B+ in AI infrastructure spending is cascading into every enterprise. The average large company has adopted 30-50 AI tools in the last two years-most without SAM visibility. Add AI-powered OT tools on factory floors, and the blind spots multiply.
             </p>
             <Link
               href="#contact"
@@ -143,7 +143,7 @@ export default function AISoftwareAssetManagement() {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
               <h3 className="text-lg font-bold text-[#ccff00] mb-3">Audit Readiness</h3>
-              <p className="text-gray-300">Be prepared for AI software audits. Copilot entitlements, cloud AI consumption, embedded AI features—all documented and defensible.</p>
+              <p className="text-gray-300">Be prepared for AI software audits. Copilot entitlements, cloud AI consumption, embedded AI features-all documented and defensible.</p>
             </div>
           </div>
         </div>

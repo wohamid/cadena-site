@@ -19,7 +19,7 @@ const capabilities = [
   },
   {
     title: 'Automated Reconciliation',
-    description: 'SAM Pro continuously matches usage against rights. Identifies gaps and optimization opportunities in real time—not during audit scrambles.',
+    description: 'SAM Pro continuously matches usage against rights. Identifies gaps and optimization opportunities in real time-not during audit scrambles.',
   },
   {
     title: 'Publisher Pack Expertise',
@@ -68,7 +68,7 @@ export default function AuditDefense() {
               Be audit-ready before the letter arrives.
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              Millions in true-up fees. Months of internal resources consumed. The scramble when a vendor audit letter arrives is painful—and preventable. We build audit readiness into your SAM program from day one.
+              Millions in true-up fees. Months of internal resources consumed. The scramble when a vendor audit letter arrives is painful-and preventable. We build audit readiness into your SAM program from day one.
             </p>
             <Link
               href="#contact"
@@ -91,7 +91,7 @@ export default function AuditDefense() {
               The Audit Landscape Is Expanding
             </h2>
             <p className="text-xl text-gray-600">
-              Microsoft, Oracle, SAP, Adobe—you know those audits. But two new fronts are opening:
+              Microsoft, Oracle, SAP, Adobe-you know those audits. But two new fronts are opening:
             </p>
           </div>
 
@@ -99,7 +99,7 @@ export default function AuditDefense() {
             <div className="bg-gray-50 rounded-xl p-8 border-l-4 border-[#ccff00]">
               <h3 className="text-xl font-bold text-[#004040] mb-4">AI Software Audits</h3>
               <p className="text-gray-600 mb-4">
-                Vendors are embedding AI features with new license terms. Copilot without E5. Einstein and Joule consumption implications. Enterprises are activating capabilities they&apos;re not entitled to—and vendors are noticing.
+                Vendors are embedding AI features with new license terms. Copilot without E5. Einstein and Joule consumption implications. Enterprises are activating capabilities they&apos;re not entitled to-and vendors are noticing.
               </p>
               <p className="text-sm text-gray-500 italic">
                 The audit letters for AI non-compliance are coming. Are you ready?

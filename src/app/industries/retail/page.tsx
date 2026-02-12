@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'POS & Store Technology', description: 'POS systems, self-checkout software, inventory management, workforce scheduling—licensed per device, per store, or per transaction across hundreds or thousands of locations.' },
-  { title: 'E-commerce Platform Licensing', description: 'Salesforce Commerce Cloud, Adobe Commerce, Shopify Plus, custom platforms—revenue-based or order-based licensing models that shift with business volume.' },
+  { title: 'POS & Store Technology', description: 'POS systems, self-checkout software, inventory management, workforce scheduling-licensed per device, per store, or per transaction across hundreds or thousands of locations.' },
+  { title: 'E-commerce Platform Licensing', description: 'Salesforce Commerce Cloud, Adobe Commerce, Shopify Plus, custom platforms-revenue-based or order-based licensing models that shift with business volume.' },
   { title: 'Seasonal Scaling', description: 'Retail traffic spikes 3-5x during holidays. Cloud and SaaS licenses provisioned for peak often sit unused 10 months of the year.' },
-  { title: 'AI for Personalization', description: 'Recommendation engines, dynamic pricing, visual search, chatbots—AI tools adopted across marketing, merchandising, and customer service with no central governance.' },
+  { title: 'AI for Personalization', description: 'Recommendation engines, dynamic pricing, visual search, chatbots-AI tools adopted across marketing, merchandising, and customer service with no central governance.' },
 ];
 
 const howWeHelp = [

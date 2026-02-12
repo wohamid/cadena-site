@@ -41,7 +41,7 @@ const aiEraSamServices = [
   },
   {
     title: 'Audit Defense & License Compliance',
-    description: 'Be audit-ready before the letter arrives. Publisher-specific expertise for Microsoft, Oracle, SAP, Adobe—plus OT and AI.',
+    description: 'Be audit-ready before the letter arrives. Publisher-specific expertise for Microsoft, Oracle, SAP, Adobe-plus OT and AI.',
     href: '/services/audit-defense',
     cta: 'Learn More',
   },

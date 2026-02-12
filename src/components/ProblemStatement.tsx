@@ -23,7 +23,7 @@ export default function ProblemStatement() {
             </div>
             <h3 className="text-xl font-bold text-[#004040] mb-3">$300B+ in AI Infrastructure Spending</h3>
             <p className="text-gray-600 leading-relaxed">
-              Enterprises are pouring billions into AI tools—and every dollar cascades into licensing complexity. Shadow AI, consumption billing, and embedded AI features are creating blind spots your SAM program wasn&apos;t designed to handle.
+              Enterprises are pouring billions into AI tools-and every dollar cascades into licensing complexity. Shadow AI, consumption billing, and embedded AI features are creating blind spots your SAM program wasn&apos;t designed to handle.
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export default function ProblemStatement() {
             </div>
             <h3 className="text-xl font-bold text-[#004040] mb-3">Unpatched Software With Known CVEs</h3>
             <p className="text-gray-600 leading-relaxed">
-              Software with security vulnerabilities sits across your enterprise and OT environments—HMIs, SCADA systems, engineering stations. Security teams lack the license data to prioritize remediation. SAM and security are converging, whether you&apos;re ready or not.
+              Software with security vulnerabilities sits across your enterprise and OT environments-HMIs, SCADA systems, engineering stations. Security teams lack the license data to prioritize remediation. SAM and security are converging, whether you&apos;re ready or not.
             </p>
           </div>
 

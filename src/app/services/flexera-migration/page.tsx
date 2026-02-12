@@ -72,7 +72,7 @@ export default function FlexeraMigration() {
               Flexera to ServiceNow SAM Pro in 90 days. Zero data loss.
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              You&apos;ve made the decision to move to ServiceNow. Now you need a partner who&apos;s done this before—a dozen times. Our playbook is proven. Your timeline is 90 days.
+              You&apos;ve made the decision to move to ServiceNow. Now you need a partner who&apos;s done this before-a dozen times. Our playbook is proven. Your timeline is 90 days.
             </p>
             <Link
               href="#contact"

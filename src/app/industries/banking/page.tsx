@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 const challenges = [
   {
     title: 'Trading Platform Licensing',
-    description: 'Bloomberg, Refinitiv, FactSet, S&P Capital IQ—expensive specialized software with complex enterprise agreements. Per-user, per-terminal, and data feed licensing creates significant compliance exposure.',
+    description: 'Bloomberg, Refinitiv, FactSet, S&P Capital IQ-expensive specialized software with complex enterprise agreements. Per-user, per-terminal, and data feed licensing creates significant compliance exposure.',
   },
   {
     title: 'Regulatory Compliance',
-    description: 'SOX, PCI DSS, OCC requirements—all require demonstrable software governance. Audit trails, access controls, and license documentation aren\'t optional. They\'re regulatory obligations.',
+    description: 'SOX, PCI DSS, OCC requirements-all require demonstrable software governance. Audit trails, access controls, and license documentation aren\'t optional. They\'re regulatory obligations.',
   },
   {
     title: 'Core Banking Modernization',
@@ -27,7 +27,7 @@ const challenges = [
   },
   {
     title: 'Cybersecurity Software Proliferation',
-    description: 'Financial services are prime targets. Security teams deploy tools rapidly—often without IT or SAM visibility. The tools protecting you might be creating compliance exposure.',
+    description: 'Financial services are prime targets. Security teams deploy tools rapidly-often without IT or SAM visibility. The tools protecting you might be creating compliance exposure.',
   },
 ];
 

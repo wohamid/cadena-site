@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'SCADA & Grid Management Software', description: 'GE, Siemens, ABB, Schneider Electric—control system software with licensing tied to endpoints, historian tags, and protocol converters. OT software that operations depends on but IT rarely tracks.' },
+  { title: 'SCADA & Grid Management Software', description: 'GE, Siemens, ABB, Schneider Electric-control system software with licensing tied to endpoints, historian tags, and protocol converters. OT software that operations depends on but IT rarely tracks.' },
   { title: 'NERC CIP Compliance', description: 'Critical Infrastructure Protection standards require software inventory, patch management, and configuration control for bulk electric system assets. SAM data is foundational to compliance evidence.' },
   { title: 'OT/IT Convergence', description: 'Smart grid and digital transformation push OT systems onto corporate networks. Software licensing, patching, and compliance across the OT/IT boundary creates new SAM challenges.' },
   { title: 'Long Asset Lifecycles', description: 'Power generation and transmission assets operate for decades. Software supporting these assets spans generations of licensing models, vendors, and support agreements.' },

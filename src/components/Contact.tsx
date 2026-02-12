@@ -44,7 +44,7 @@ export default function Contact() {
               Request Your Free SAM Assessment
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Discover where your SAM program stands today—and where Cadena can help you reduce risk, cut costs, and put it on autopilot.
+              Discover where your SAM program stands today-and where Cadena can help you reduce risk, cut costs, and put it on autopilot.
             </p>
 
             {/* What you'll get */}
@@ -56,7 +56,7 @@ export default function Contact() {
                   'Identification of compliance risks and gaps',
                   'Quantified savings opportunities',
                   'Roadmap to AI-powered SAM automation',
-                  'No obligation—just actionable insights',
+                  'No obligation-just actionable insights',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-[#ccff00] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">

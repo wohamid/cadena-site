@@ -24,7 +24,7 @@ const values = [
   },
   {
     title: 'Build for Autopilot',
-    description: 'Every implementation is designed for ServiceNow\'s AI features to work—not just today, but as AI capabilities expand. We build the foundation for autonomous operations.',
+    description: 'Every implementation is designed for ServiceNow\'s AI features to work-not just today, but as AI capabilities expand. We build the foundation for autonomous operations.',
   },
   {
     title: 'Relationship Over Transaction',
@@ -53,7 +53,7 @@ export default function AboutPage() {
               <span className="text-[#ccff00]">Enterprise results.</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Cadena is a boutique ServiceNow consulting firm specializing in Software Asset Management. We do one thing—SAM Pro—and we do it exceptionally well.
+              Cadena is a boutique ServiceNow consulting firm specializing in Software Asset Management. We do one thing-SAM Pro-and we do it exceptionally well.
             </p>
           </div>
         </div>

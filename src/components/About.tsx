@@ -15,10 +15,10 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-lg text-gray-600">
               <p>
-                Cadena is a specialized ServiceNow partner focused exclusively on Software Asset Management. We&apos;re not a generalist systems integrator trying to be everything to everyone—we&apos;re SAM experts who live and breathe license optimization.
+                Cadena is a specialized ServiceNow partner focused exclusively on Software Asset Management. We&apos;re not a generalist systems integrator trying to be everything to everyone-we&apos;re SAM experts who live and breathe license optimization.
               </p>
               <p>
-                What sets us apart? We&apos;re AI-first. While others are still doing SAM the old way—spreadsheets, manual reconciliation, quarterly audits—we implement ServiceNow&apos;s AI agents to put your SAM program on autopilot.
+                What sets us apart? We&apos;re AI-first. While others are still doing SAM the old way-spreadsheets, manual reconciliation, quarterly audits-we implement ServiceNow&apos;s AI agents to put your SAM program on autopilot.
               </p>
               <p>
                 The result: You get enterprise-grade expertise with boutique attention, and a SAM program that gets smarter every day without constant manual intervention.

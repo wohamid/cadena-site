@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'Actuarial & Underwriting Platforms', description: 'Moody\'s, Willis Towers Watson, Milliman, SAS—expensive specialized software with complex named-user and concurrent licensing. Over-provisioning is common and costly.' },
-  { title: 'Policy Administration Systems', description: 'Guidewire, Duck Creek, Majesco—platform licensing tied to premium volume, policy counts, or transaction metrics that SAM teams don\'t naturally track.' },
+  { title: 'Actuarial & Underwriting Platforms', description: 'Moody\'s, Willis Towers Watson, Milliman, SAS-expensive specialized software with complex named-user and concurrent licensing. Over-provisioning is common and costly.' },
+  { title: 'Policy Administration Systems', description: 'Guidewire, Duck Creek, Majesco-platform licensing tied to premium volume, policy counts, or transaction metrics that SAM teams don\'t naturally track.' },
   { title: 'Regulatory Compliance', description: 'SOX for publicly traded carriers, state-level insurance regulations, NAIC requirements. All require demonstrable software governance and auditable license positions.' },
   { title: 'Legacy Modernization', description: 'Insurance companies carry decades of legacy software alongside modern SaaS. Dual estates with overlapping functionality and unclear entitlements.' },
 ];

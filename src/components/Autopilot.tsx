@@ -19,11 +19,11 @@ export default function Autopilot() {
           {/* Content */}
           <div className="prose prose-lg prose-invert max-w-none">
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              ServiceNow&apos;s AI capabilities for SAM aren&apos;t coming—they&apos;re here. Now Assist delivers natural language queries across your software estate. AI Agents handle request fulfillment, automated reclamation rule generation, and one-click audit preparation. The tools exist. The question is whether your data foundation can support them.
+              ServiceNow&apos;s AI capabilities for SAM aren&apos;t coming-they&apos;re here. Now Assist delivers natural language queries across your software estate. AI Agents handle request fulfillment, automated reclamation rule generation, and one-click audit preparation. The tools exist. The question is whether your data foundation can support them.
             </p>
 
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              And more is coming. AI-powered contract analysis. Asset Assist for intelligent decision support. AI Agent Studio for custom automation. AI Control Tower for enterprise-wide governance. ServiceNow&apos;s vision is <strong className="text-[#ccff00]">Autonomous IT</strong>—zero asset issues, zero audit surprises.
+              And more is coming. AI-powered contract analysis. Asset Assist for intelligent decision support. AI Agent Studio for custom automation. AI Control Tower for enterprise-wide governance. ServiceNow&apos;s vision is <strong className="text-[#ccff00]">Autonomous IT</strong>-zero asset issues, zero audit surprises.
             </p>
 
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
@@ -76,7 +76,7 @@ export default function Autopilot() {
           {/* Key message */}
           <div className="mt-12 text-center">
             <p className="text-xl text-gray-200 italic">
-              Every Cadena implementation is designed for autopilot—building the data foundation that makes ServiceNow&apos;s AI features actually work.
+              Every Cadena implementation is designed for autopilot-building the data foundation that makes ServiceNow&apos;s AI features actually work.
             </p>
           </div>
         </div>

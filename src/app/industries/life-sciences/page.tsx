@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'GxP-Validated Software', description: 'FDA 21 CFR Part 11 requires validated software environments. Any software change—including license updates, version changes, or entitlement modifications—can trigger revalidation. SAM and quality systems must be aligned.' },
+  { title: 'GxP-Validated Software', description: 'FDA 21 CFR Part 11 requires validated software environments. Any software change-including license updates, version changes, or entitlement modifications-can trigger revalidation. SAM and quality systems must be aligned.' },
   { title: 'R&D Platform Licensing', description: 'LIMS (LabWare, Thermo Fisher), ELN, molecular modeling (Schrödinger), statistical analysis (SAS, JMP), bioinformatics tools. Expensive, specialized, often named-user with strict compliance requirements.' },
-  { title: 'Clinical Trial Software', description: 'Veeva, Medidata, Oracle Health Sciences—platform licensing tied to study counts, site counts, or patient volumes. Trial timelines shift, creating license misalignment.' },
+  { title: 'Clinical Trial Software', description: 'Veeva, Medidata, Oracle Health Sciences-platform licensing tied to study counts, site counts, or patient volumes. Trial timelines shift, creating license misalignment.' },
   { title: 'AI for Drug Discovery', description: 'AI/ML platforms for target identification, compound screening, clinical trial optimization. New licensing models (per-model, per-prediction, GPU-hours) with no established SAM patterns.' },
 ];
 

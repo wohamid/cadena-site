@@ -9,8 +9,8 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Cadena | ServiceNow SAM Pro Experts — Enterprise Software Asset Management",
-  description: "Cadena is a boutique ServiceNow consulting firm specializing in SAM Pro implementations, Flexera migrations, audit defense, and AI software asset management for Fortune 500 enterprises. We build SAM programs designed for autopilot.",
+  title: "Cadena | ServiceNow SAM Pro Experts",
+  description: "Boutique ServiceNow consulting firm specializing in SAM Pro implementations, Flexera migrations, audit defense, and AI software asset management for Fortune 500 enterprises.",
   keywords: "servicenow sam pro, software asset management consulting, servicenow partner, servicenow itam, software asset management services, servicenow implementation partner, autonomous it, sam on autopilot",
   authors: [{ name: "Cadena" }],
   creator: "Cadena",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Cadena | ServiceNow SAM Pro Experts — Enterprise Software Asset Management",
-    description: "Cadena is a boutique ServiceNow consulting firm specializing in SAM Pro implementations, Flexera migrations, audit defense, and AI software asset management for Fortune 500 enterprises.",
+    title: "Cadena | ServiceNow SAM Pro Experts",
+    description: "Boutique ServiceNow consulting firm specializing in SAM Pro implementations, Flexera migrations, audit defense, and AI governance.",
     url: "https://cadena.co",
     siteName: "Cadena",
     locale: "en_US",

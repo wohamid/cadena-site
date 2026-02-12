@@ -69,7 +69,7 @@ export default function SamRescue() {
               Your last SAM partner didn&apos;t deliver. We will.
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              Unreliable data. Dashboards nobody trusts. Manual spreadsheet reconciliation that defeats the purpose of having a SAM tool. We&apos;ve seen it all—and we fix it.
+              Unreliable data. Dashboards nobody trusts. Manual spreadsheet reconciliation that defeats the purpose of having a SAM tool. We&apos;ve seen it all-and we fix it.
             </p>
             <Link
               href="#contact"

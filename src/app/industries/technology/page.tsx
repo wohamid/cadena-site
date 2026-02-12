@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'Developer Tool Proliferation', description: 'JetBrains, GitHub, GitLab, Atlassian, AWS dev tools—developers adopt tools faster than IT can track. Per-seat licensing with high costs and low visibility into actual usage.' },
+  { title: 'Developer Tool Proliferation', description: 'JetBrains, GitHub, GitLab, Atlassian, AWS dev tools-developers adopt tools faster than IT can track. Per-seat licensing with high costs and low visibility into actual usage.' },
   { title: 'SaaS Sprawl', description: 'Tech companies are often the worst at managing their own SaaS. Hundreds of applications, overlapping functionality, departmental silos. The cobbler\'s children have no shoes.' },
-  { title: 'AI Tool Governance', description: 'Your employees are early adopters. ChatGPT, Copilot, Midjourney, custom ML platforms—AI tools adopted enthusiastically with no governance framework.' },
+  { title: 'AI Tool Governance', description: 'Your employees are early adopters. ChatGPT, Copilot, Midjourney, custom ML platforms-AI tools adopted enthusiastically with no governance framework.' },
   { title: 'Open-Source Compliance', description: 'Engineering uses open-source extensively. License compliance (GPL, Apache, MIT), security vulnerabilities, and commercial restrictions create hidden risk.' },
 ];
 

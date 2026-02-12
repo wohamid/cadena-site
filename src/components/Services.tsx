@@ -5,7 +5,7 @@ import Link from 'next/link';
 const coreSamServices = [
   {
     title: 'SAM Pro Implementation',
-    description: 'Full ServiceNow SAM Pro deployment with clean data foundation, OT discovery, vulnerability convergence, and time-to-value in months—not years.',
+    description: 'Full ServiceNow SAM Pro deployment with clean data foundation, OT discovery, vulnerability convergence, and time-to-value in months-not years.',
     href: '/services/sam-pro-implementation',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -48,7 +48,7 @@ const aiEraSamServices = [
   },
   {
     title: 'Audit Defense & License Compliance',
-    description: 'Be audit-ready before the letter arrives. Publisher-specific expertise for Microsoft, Oracle, SAP, Adobe—plus OT vendors and AI software audits.',
+    description: 'Be audit-ready before the letter arrives. Publisher-specific expertise for Microsoft, Oracle, SAP, Adobe-plus OT vendors and AI software audits.',
     href: '/services/audit-defense',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -58,7 +58,7 @@ const aiEraSamServices = [
   },
   {
     title: 'AI License Optimization',
-    description: 'You\'re spending more on AI software than you think. We make it visible—and recoverable. Typical savings: 20-40% of AI software spend.',
+    description: 'You\'re spending more on AI software than you think. We make it visible-and recoverable. Typical savings: 20-40% of AI software spend.',
     href: '/services/ai-license-optimization',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'ERP Licensing at Scale', description: 'SAP S/4HANA migrations, Oracle EBS to Cloud transitions—major re-licensing events with multi-million dollar implications. Getting the entitlement mapping wrong costs millions in true-ups.' },
-  { title: 'Supply Chain Software Proliferation', description: 'Blue Yonder, Kinaxis, o9 Solutions, Manhattan Associates—planning, logistics, and warehouse platforms with capacity-based and transaction-based licensing.' },
-  { title: 'Manufacturing OT', description: 'Same OT challenge as automotive—factory floor software (Rockwell, Siemens, Schneider Electric) running licensed software nobody tracks.' },
+  { title: 'ERP Licensing at Scale', description: 'SAP S/4HANA migrations, Oracle EBS to Cloud transitions-major re-licensing events with multi-million dollar implications. Getting the entitlement mapping wrong costs millions in true-ups.' },
+  { title: 'Supply Chain Software Proliferation', description: 'Blue Yonder, Kinaxis, o9 Solutions, Manhattan Associates-planning, logistics, and warehouse platforms with capacity-based and transaction-based licensing.' },
+  { title: 'Manufacturing OT', description: 'Same OT challenge as automotive-factory floor software (Rockwell, Siemens, Schneider Electric) running licensed software nobody tracks.' },
   { title: 'AI for Demand Planning', description: 'CPG companies adopting AI for forecasting, pricing optimization, and consumer insights. New software layer with consumption licensing.' },
 ];
 

@@ -20,7 +20,7 @@ export default function Footer() {
               className="h-10 w-auto mb-6"
             />
             <p className="text-gray-400 max-w-md mb-6">
-              Cadena is your AI-first ServiceNow SAM partner. We put your Software Asset Management on autopilot—giving you complete visibility, automated compliance, and continuous optimization.
+              Cadena is your AI-first ServiceNow SAM partner. We put your Software Asset Management on autopilot-giving you complete visibility, automated compliance, and continuous optimization.
             </p>
             <div className="flex items-center gap-4">
               <Image

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'EHR Licensing Complexity', description: 'Epic, Cerner, Meditech—EHR licensing tied to beds, providers, modules, and transaction volumes. True costs are difficult to project, and optimization opportunities are buried in contract complexity.' },
-  { title: 'Medical Device Software', description: 'Imaging systems, diagnostic equipment, patient monitors—all running commercial software that needs license management. FDA-regulated devices add validation and change control requirements.' },
+  { title: 'EHR Licensing Complexity', description: 'Epic, Cerner, Meditech-EHR licensing tied to beds, providers, modules, and transaction volumes. True costs are difficult to project, and optimization opportunities are buried in contract complexity.' },
+  { title: 'Medical Device Software', description: 'Imaging systems, diagnostic equipment, patient monitors-all running commercial software that needs license management. FDA-regulated devices add validation and change control requirements.' },
   { title: 'HIPAA & Security Requirements', description: 'Software handling PHI needs documented compliance. SAM must track not just licenses but access controls, encryption status, and BAA coverage. Security and compliance are inseparable from licensing.' },
-  { title: 'Clinical Application Sprawl', description: 'Departments adopt specialized clinical applications independently. Radiology, cardiology, lab systems—each with different vendors, licensing models, and compliance requirements.' },
+  { title: 'Clinical Application Sprawl', description: 'Departments adopt specialized clinical applications independently. Radiology, cardiology, lab systems-each with different vendors, licensing models, and compliance requirements.' },
 ];
 
 const howWeHelp = [

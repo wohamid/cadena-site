@@ -34,7 +34,7 @@ The most common mistake we see? Teams trying to tackle Microsoft, Oracle, and SA
 
 ### Start Small, Build Confidence
 
-Pick a simpler publisher first—something with straightforward per-device or per-user licensing. This lets you:
+Pick a simpler publisher first-something with straightforward per-device or per-user licensing. This lets you:
 
 - Learn how entitlements flow through the system
 - Understand reconciliation without complex metrics
@@ -44,10 +44,10 @@ Pick a simpler publisher first—something with straightforward per-device or pe
 
 Once you've got the basics, prioritize based on:
 
-1. **Upcoming audits** — If Oracle is knocking, Oracle comes first
-2. **Contract renewals** — 6 months out is your sweet spot
-3. **High spend** — Where optimization will move the needle
-4. **Risk exposure** — Non-compliant software that could bite you
+1. **Upcoming audits** - If Oracle is knocking, Oracle comes first
+2. **Contract renewals** - 6 months out is your sweet spot
+3. **High spend** - Where optimization will move the needle
+4. **Risk exposure** - Non-compliant software that could bite you
 
 ### Use Publisher Part Numbers
 
@@ -75,7 +75,7 @@ Before diving into compliance, set up a few SaaS direct integrations. Microsoft 
   {
     slug: 'microsoft-365-licensing-in-sam-pro',
     title: 'Microsoft 365 Licensing in SAM Pro: Complete Guide',
-    description: 'E3 vs E5, subscriptions vs installs, G5 confusion—get your Microsoft 365 compliance position right the first time.',
+    description: 'E3 vs E5, subscriptions vs installs, G5 confusion-get your Microsoft 365 compliance position right the first time.',
     category: 'microsoft',
     readTime: '8 min',
     publishedAt: '2026-02-07',
@@ -83,7 +83,7 @@ Before diving into compliance, set up a few SaaS direct integrations. Microsoft 
     content: `
 ## The Microsoft 365 Challenge
 
-Microsoft 365 licensing is where most SAM programs hit their first wall. Between E3, E5, G5 (government), subscription identifiers, and the endless suite components—it's easy to end up with a compliance position that's just... wrong.
+Microsoft 365 licensing is where most SAM programs hit their first wall. Between E3, E5, G5 (government), subscription identifiers, and the endless suite components-it's easy to end up with a compliance position that's just... wrong.
 
 ### Set Up the Direct Integration First
 
@@ -109,9 +109,9 @@ Before creating any entitlements, configure the Microsoft 365 direct integration
 
 These are tricky because usage data often doesn't come through the standard API. Options:
 
-1. **Manual upload** — Download reports from M365 admin, upload to ServiceNow
-2. **Custom integration** — If you have API access at a premium tier
-3. **Accept the gap** — Focus on what you can automate, handle these manually
+1. **Manual upload** - Download reports from M365 admin, upload to ServiceNow
+2. **Custom integration** - If you have API access at a premium tier
+3. **Accept the gap** - Focus on what you can automate, handle these manually
 
 ### Suite Inference
 
@@ -205,7 +205,7 @@ Don't configure SSO AND direct integration for the same app. You'll get duplicat
   {
     slug: 'why-reconciliation-shows-zero-compliance',
     title: 'Why Your Reconciliation Shows Zero Compliance',
-    description: 'Your installs aren\'t being licensed. Here are the 5 most common reasons—and how to fix each one.',
+    description: 'Your installs aren\'t being licensed. Here are the 5 most common reasons-and how to fix each one.',
     category: 'reconciliation',
     readTime: '6 min',
     publishedAt: '2026-02-07',
@@ -219,7 +219,7 @@ You've set up your entitlements. Discovery is running. But reconciliation shows 
 
 **Symptom:** Server software shows "Missing relationship to physical host"
 
-**Why It Matters:** Products like Windows Server and SQL Server are often licensed based on the physical host's CPUs—not the VM. Without the VM-to-host relationship, SAM Pro can't calculate compliance.
+**Why It Matters:** Products like Windows Server and SQL Server are often licensed based on the physical host's CPUs-not the VM. Without the VM-to-host relationship, SAM Pro can't calculate compliance.
 
 **Fix:** 
 - Ensure discovery is capturing VMware/Hyper-V relationships
@@ -240,7 +240,7 @@ You've set up your entitlements. Discovery is running. But reconciliation shows 
 
 **Symptom:** Subscriptions don't match entitlements
 
-**Why It Matters:** If your Microsoft 365 integration creates a software model called "Microsoft 365 E5" but your entitlement creates "Office 365 E5"—they won't reconcile.
+**Why It Matters:** If your Microsoft 365 integration creates a software model called "Microsoft 365 E5" but your entitlement creates "Office 365 E5"-they won't reconcile.
 
 **Fix:**
 - Always set up integrations before creating entitlements
@@ -288,19 +288,19 @@ Want to prove SAM value to leadership? Reclamation is your answer. Nothing gets 
 
 ### How Reclamation Works
 
-1. **Define a rule** — e.g., "No usage in 60 days"
-2. **System identifies candidates** — Software meeting your criteria
-3. **Potential savings calculated** — Based on unit cost
-4. **Take action** — Reclaim licenses via workflow
-5. **Track actual savings** — Prove ROI
+1. **Define a rule** - e.g., "No usage in 60 days"
+2. **System identifies candidates** - Software meeting your criteria
+3. **Potential savings calculated** - Based on unit cost
+4. **Take action** - Reclaim licenses via workflow
+5. **Track actual savings** - Prove ROI
 
 ### Starting Point: SaaS Subscriptions
 
 The easiest wins are in SaaS. Set up these direct integrations first:
 
-- **Microsoft 365** — Huge spend, lots of unused licenses
-- **Adobe Creative Cloud** — Single apps often go unused
-- **Zoom/Webex** — Departed employees, duplicate accounts
+- **Microsoft 365** - Huge spend, lots of unused licenses
+- **Adobe Creative Cloud** - Single apps often go unused
+- **Zoom/Webex** - Departed employees, duplicate accounts
 
 These integrations bring in "Last Activity" dates automatically. No metering setup required.
 
@@ -361,7 +361,7 @@ Build the workflow:
     content: `
 ## The SQL Server Licensing Challenge
 
-SQL Server is one of the most complex products to license correctly. Why? Because in most environments, it's licensed based on the **physical host's CPU cores**—not the virtual machine.
+SQL Server is one of the most complex products to license correctly. Why? Because in most environments, it's licensed based on the **physical host's CPU cores**-not the virtual machine.
 
 If SAM Pro doesn't know which physical host your VM runs on, it can't calculate compliance. You'll see the dreaded "Missing relationship to physical host" error.
 
@@ -375,15 +375,15 @@ Microsoft's SQL Server licensing (Enterprise and Standard) typically works like 
 | Standard | Per Core or Server+CAL | Physical cores or server |
 | Developer/Express | Free (restrictions apply) | N/A |
 
-**The Catch:** If you're running SQL on VMware and using per-core licensing, you need to license ALL physical cores on the host—not just the vCPUs allocated to the VM.
+**The Catch:** If you're running SQL on VMware and using per-core licensing, you need to license ALL physical cores on the host-not just the vCPUs allocated to the VM.
 
 ### Setting Up VM-to-Host Relationships
 
 For SAM Pro to calculate this correctly, it needs three things:
 
-1. **Discovered VMs** — Your SQL servers as Configuration Items
-2. **Discovered Hosts** — The physical ESXi/Hyper-V hosts
-3. **Relationship records** — Connecting VMs to their hosts
+1. **Discovered VMs** - Your SQL servers as Configuration Items
+2. **Discovered Hosts** - The physical ESXi/Hyper-V hosts
+3. **Relationship records** - Connecting VMs to their hosts
 
 #### Check Your Relationships
 
@@ -398,9 +398,9 @@ If these are missing, Discovery isn't capturing the virtualization layer.
 
 This is typically a Discovery configuration issue. Work with your ServiceNow Discovery/ITOM team to:
 
-1. **Verify vCenter credentials** — Discovery needs read access to VMware
-2. **Check discovery schedules** — Hosts and VMs should be in the same schedule
-3. **Validate MID Server access** — Network access to vCenter API
+1. **Verify vCenter credentials** - Discovery needs read access to VMware
+2. **Check discovery schedules** - Hosts and VMs should be in the same schedule
+3. **Validate MID Server access** - Network access to vCenter API
 
 ### The Soft Licensing Option
 
@@ -424,13 +424,13 @@ As a last resort, you can manually create relationships:
 
 Once relationships are in place:
 
-1. **Re-run reconciliation** — SAM Pro needs to recalculate
-2. **Check the metric** — Ensure your entitlement uses "Per Core" metric
-3. **Verify core counts** — Physical host core count should appear in compliance
+1. **Re-run reconciliation** - SAM Pro needs to recalculate
+2. **Check the metric** - Ensure your entitlement uses "Per Core" metric
+3. **Verify core counts** - Physical host core count should appear in compliance
 
 ---
 
-**Pro Tip:** Use the "Products with Installs" diagnostic view. It will tell you exactly why a SQL Server install isn't being licensed—including missing host relationships.
+**Pro Tip:** Use the "Products with Installs" diagnostic view. It will tell you exactly why a SQL Server install isn't being licensed-including missing host relationships.
     `,
   },
   {
@@ -446,7 +446,7 @@ Once relationships are in place:
 
 Agent Client Collector (ACC) is ServiceNow's endpoint agent that collects software usage data. Unlike simple discovery (which tells you what's installed), metering tells you **what's actually being used**.
 
-This is the foundation for reclamation—you can't reclaim unused licenses if you don't know which ones are unused.
+This is the foundation for reclamation-you can't reclaim unused licenses if you don't know which ones are unused.
 
 ### ACC vs SCCM Metering
 
@@ -532,10 +532,10 @@ Once the rule is active and usage data flows in:
 
 ### Best Practices
 
-1. **Start small** — Pick 5-10 high-value applications
-2. **Pilot first** — Test on a subset of devices
-3. **Set reasonable thresholds** — 60 days is aggressive; start at 90
-4. **Communicate** — Tell users before reclaiming licenses
+1. **Start small** - Pick 5-10 high-value applications
+2. **Pilot first** - Test on a subset of devices
+3. **Set reasonable thresholds** - 60 days is aggressive; start at 90
+4. **Communicate** - Tell users before reclaiming licenses
 
 ---
 
@@ -573,7 +573,7 @@ When you "publish" a product:
 - It shows up in executive dashboards
 - Cost data appears in IT Cost Management views
 
-Unpublished products still exist—they're just filtered out of the main views.
+Unpublished products still exist-they're just filtered out of the main views.
 
 ### Enabling Published Products
 
@@ -640,7 +640,7 @@ Sometimes you need to unpublish:
 - Data quality issue discovered
 - Product being retired
 
-Unpublishing doesn't delete data—it just hides it from the workspace until you're ready.
+Unpublishing doesn't delete data-it just hides it from the workspace until you're ready.
 
 ---
 

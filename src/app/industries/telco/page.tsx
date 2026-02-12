@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'Network Management Software', description: 'Nokia, Ericsson, Cisco, Huawei—network management and orchestration platforms with licensing tied to network elements, subscribers, or bandwidth. Complexity scales with network size.' },
-  { title: 'OSS/BSS Platform Licensing', description: 'Amdocs, Netcracker, CSG, Oracle Communications—operational and business support systems with transaction-based, subscriber-based, and capacity licensing models.' },
+  { title: 'Network Management Software', description: 'Nokia, Ericsson, Cisco, Huawei-network management and orchestration platforms with licensing tied to network elements, subscribers, or bandwidth. Complexity scales with network size.' },
+  { title: 'OSS/BSS Platform Licensing', description: 'Amdocs, Netcracker, CSG, Oracle Communications-operational and business support systems with transaction-based, subscriber-based, and capacity licensing models.' },
   { title: '5G Infrastructure Software', description: '5G rollout brings new software categories: RAN virtualization, edge computing, network slicing. Licensing models are evolving with the technology.' },
   { title: 'AI for Network Optimization', description: 'AI/ML platforms for traffic optimization, predictive maintenance, customer experience. New software category with consumption licensing and unclear compliance patterns.' },
 ];

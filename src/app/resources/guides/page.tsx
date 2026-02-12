@@ -28,7 +28,7 @@ export default function GuidesPage() {
           </h1>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             Practical, bite-sized answers to the questions SAM professionals actually ask. 
-            No fluff—just what you need to know.
+            No fluff-just what you need to know.
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default function GuidesPage() {
           </h2>
           <p className="text-white/80 mb-8">
             These guides cover the basics. For complex implementations, Flexera migrations, 
-            or hands-on support—let's talk.
+            or hands-on support-let's talk.
           </p>
           <Link
             href="/#contact"

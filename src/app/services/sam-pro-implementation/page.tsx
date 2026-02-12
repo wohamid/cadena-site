@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 const methodologySteps = [
   {
     title: 'Discovery & Data Foundation',
-    description: 'Full estate visibility: data center, cloud, SaaS, endpoints, AI tools. We extend discovery to OT environments—HMIs, SCADA workstations, engineering stations, and embedded systems running commercial software. Most SAM programs miss this entirely.',
+    description: 'Full estate visibility: data center, cloud, SaaS, endpoints, AI tools. We extend discovery to OT environments-HMIs, SCADA workstations, engineering stations, and embedded systems running commercial software. Most SAM programs miss this entirely.',
   },
   {
     title: 'Normalization & Software Model Library',
-    description: 'We achieve 95%+ normalization rates before moving forward—not the 60-70% that passes for acceptable. Software Model Library configured for your specific vendor landscape.',
+    description: 'We achieve 95%+ normalization rates before moving forward-not the 60-70% that passes for acceptable. Software Model Library configured for your specific vendor landscape.',
   },
   {
     title: 'Publisher Pack Configuration',
@@ -31,7 +31,7 @@ const methodologySteps = [
   },
   {
     title: 'CMDB & CSDM Alignment',
-    description: 'Map software assets to business services and business applications using CSDM. Business context for leadership—not just license counts, but what software supports which business capabilities.',
+    description: 'Map software assets to business services and business applications using CSDM. Business context for leadership-not just license counts, but what software supports which business capabilities.',
   },
   {
     title: 'Security & Vulnerability Convergence',
@@ -87,7 +87,7 @@ export default function SamProImplementation() {
               SAM Pro implementation that actually delivers.
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              Most SAM implementations fail—not because ServiceNow is bad, but because the approach is wrong. Data quality gets ignored. Normalization gets rushed. The partner moves on. We do it differently.
+              Most SAM implementations fail-not because ServiceNow is bad, but because the approach is wrong. Data quality gets ignored. Normalization gets rushed. The partner moves on. We do it differently.
             </p>
             <Link
               href="#contact"
@@ -186,7 +186,7 @@ export default function SamProImplementation() {
 
           <div className="mt-12 text-center">
             <p className="text-xl text-gray-200 italic max-w-2xl mx-auto">
-              &ldquo;AI only works when the underlying data is clean. Every Cadena implementation builds the data foundation that makes these features productive—not just available.&rdquo;
+              &ldquo;AI only works when the underlying data is clean. Every Cadena implementation builds the data foundation that makes these features productive-not just available.&rdquo;
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function CTA() {
         </h2>
 
         <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-          Whether you&apos;re starting fresh, rescuing a failed implementation, migrating from Flexera, or tackling AI sprawl—let&apos;s talk.
+          Whether you&apos;re starting fresh, rescuing a failed implementation, migrating from Flexera, or tackling AI sprawl-let&apos;s talk.
         </p>
 
         {/* Entry points */}

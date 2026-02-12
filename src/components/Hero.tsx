@@ -46,7 +46,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl sm:text-2xl text-gray-200 mb-8 leading-relaxed">
-              Cadena is a boutique ServiceNow consultancy helping Fortune 500 enterprises manage software assets—from legacy chaos to AI-era complexity. We build SAM programs designed for autopilot.
+              Cadena is a boutique ServiceNow consultancy helping Fortune 500 enterprises manage software assets-from legacy chaos to AI-era complexity. We build SAM programs designed for autopilot.
             </p>
 
             {/* CTAs - Exact copy from brief */}

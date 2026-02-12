@@ -10,7 +10,7 @@ const steps = [
   {
     number: '02',
     title: 'Execute',
-    description: 'We configure and deploy ServiceNow SAM with AI automation built in—from discovery to normalization to compliance.',
+    description: 'We configure and deploy ServiceNow SAM with AI automation built in-from discovery to normalization to compliance.',
     details: ['SAM Pro implementation', 'AI agent configuration', 'Integration setup', 'Data migration'],
   },
   {
@@ -38,7 +38,7 @@ export default function Process() {
             From Assessment to Autopilot in 12 Weeks
           </h2>
           <p className="text-xl text-gray-600">
-            Our battle-tested methodology gets you to value fast—with AI automation that keeps delivering long after we leave.
+            Our battle-tested methodology gets you to value fast-with AI automation that keeps delivering long after we leave.
           </p>
         </div>
 

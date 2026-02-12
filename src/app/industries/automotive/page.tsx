@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'CAD/PLM Licensing', description: 'Siemens NX, Dassault CATIA, PTC Creo, Autodesk—expensive engineering software with complex token/seat licensing. Small optimization = millions in savings across global engineering teams.' },
-  { title: 'Manufacturing OT Software', description: 'Factory floor systems: Rockwell, Siemens, Fanuc, ABB. PLCs, robotics, quality systems—all running commercial software with licensing implications nobody tracks.' },
-  { title: 'Supply Chain Software', description: 'Tier 1 suppliers, logistics providers, dealer networks—automotive supply chains run on software. SAP, Oracle, specialized platforms with complex enterprise agreements.' },
-  { title: 'EV & Software-Defined Vehicle', description: 'Electric and autonomous vehicles are software platforms. Development tools, simulation software, embedded systems licensing—new categories requiring new SAM approaches.' },
+  { title: 'CAD/PLM Licensing', description: 'Siemens NX, Dassault CATIA, PTC Creo, Autodesk-expensive engineering software with complex token/seat licensing. Small optimization = millions in savings across global engineering teams.' },
+  { title: 'Manufacturing OT Software', description: 'Factory floor systems: Rockwell, Siemens, Fanuc, ABB. PLCs, robotics, quality systems-all running commercial software with licensing implications nobody tracks.' },
+  { title: 'Supply Chain Software', description: 'Tier 1 suppliers, logistics providers, dealer networks-automotive supply chains run on software. SAP, Oracle, specialized platforms with complex enterprise agreements.' },
+  { title: 'EV & Software-Defined Vehicle', description: 'Electric and autonomous vehicles are software platforms. Development tools, simulation software, embedded systems licensing-new categories requiring new SAM approaches.' },
 ];
 
 const howWeHelp = [

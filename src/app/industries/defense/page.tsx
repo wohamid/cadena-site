@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 };
 
 const challenges = [
-  { title: 'Classified Environments', description: 'Air-gapped networks, SCIF facilities, multiple classification levels—each with separate software estates requiring independent license management. Discovery tools are often restricted.' },
+  { title: 'Classified Environments', description: 'Air-gapped networks, SCIF facilities, multiple classification levels-each with separate software estates requiring independent license management. Discovery tools are often restricted.' },
   { title: 'ITAR/EAR Compliance', description: 'Export-controlled software cannot be accessed by foreign nationals. SAM must track not just licenses but access controls. Violation consequences are existential for contractors.' },
   { title: 'CMMC Requirements', description: 'Cybersecurity Maturity Model Certification requires software inventory, vulnerability management, and configuration management. SAM data is foundational to CMMC compliance evidence.' },
   { title: 'OT/Weapons System Software', description: 'Embedded software in weapons platforms, test equipment, simulation systems. Long lifecycle (20-30+ years), legacy operating systems, vendor support contracts predating modern licensing models.' },
-  { title: 'Engineering Software Costs', description: 'MATLAB, Simulink, ANSYS, Cadence—$10K-$50K+ per seat for defense-grade engineering tools. Small optimization = significant savings with outsized ROI.' },
+  { title: 'Engineering Software Costs', description: 'MATLAB, Simulink, ANSYS, Cadence-$10K-$50K+ per seat for defense-grade engineering tools. Small optimization = significant savings with outsized ROI.' },
 ];
 
 const howWeHelp = [
