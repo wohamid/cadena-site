@@ -1,0 +1,62 @@
+# Cadena - ServiceNow SAM Pro Experts
+
+> Cadena is a boutique ServiceNow consulting firm specializing in Software Asset Management (SAM) Pro implementations for Fortune 500 enterprises.
+
+## Company Overview
+
+Cadena helps enterprises manage software assets from legacy chaos to AI-era complexity. We build SAM programs designed for autopilot—leveraging ServiceNow's AI capabilities to achieve autonomous IT operations.
+
+## Core Services
+
+### Core SAM
+- **SAM Pro Implementation**: Full ServiceNow SAM deployment with clean data foundation, OT discovery, vulnerability convergence. URL: https://cadena.co/services/sam-pro-implementation
+- **SAM Rescue & Optimization**: Fix failed implementations, repair data foundations, generate ROI within 90 days. URL: https://cadena.co/services/sam-rescue
+- **Flexera-to-ServiceNow Migration**: 90-day migration playbook with zero data loss. URL: https://cadena.co/services/flexera-migration
+
+### AI-Era SAM
+- **AI Software Asset Management**: Discover and govern Shadow AI—standalone SaaS, embedded features, API services, open-source with commercial traps. URL: https://cadena.co/services/ai-software-asset-management
+- **Audit Defense & License Compliance**: Publisher-specific expertise for Microsoft, Oracle, SAP, Adobe, plus OT and AI software audits. URL: https://cadena.co/services/audit-defense
+- **AI License Optimization**: Right-size AI software spend with typical 20-40% savings. URL: https://cadena.co/services/ai-license-optimization
+
+## Industries Served
+
+- Banking & Finance: Trading platforms, regulatory compliance (SOX, PCI)
+- Healthcare: EHR licensing, HIPAA compliance, medical device software
+- Defense: ITAR/CMMC compliance, classified environments, weapons systems
+- Energy: SCADA/OT software, NERC CIP compliance
+- Technology: SaaS management, AI tool governance
+- Automotive: Manufacturing OT, CAD/PLM licensing
+- Insurance: Actuarial platforms, policy administration systems
+- Consumer Goods: ERP licensing, supply chain software
+- Retail: POS systems, e-commerce platforms
+- Life Sciences: GxP-validated software, FDA compliance
+- Telecommunications: Network management, OSS/BSS platforms
+
+## Key Differentiators
+
+1. **SAM Pro Is All We Do**: 100% focus on ServiceNow SAM—not a generalist shop
+2. **17 Years Enterprise Software**: Fortune 500 implementations across regulated industries
+3. **Data Foundation First**: 95%+ normalization rates before moving forward
+4. **Built for Autopilot**: Every implementation designed for ServiceNow's AI features
+
+## SAM on Autopilot Vision
+
+Cadena builds SAM programs for autonomous operations:
+- Current: Now Assist, AI Agents for request fulfillment, automated reclamation
+- Coming: AI-powered contract analysis, Asset Assist, AI Agent Studio, AI Control Tower
+- Goal: Zero asset issues, zero audit surprises
+
+## Contact
+
+Website: https://cadena.co
+Email: hello@cadena.co
+
+## Technical Information
+
+- ServiceNow Consulting Partner
+- ServiceNow Platform Partner
+- Certifications: ITAM Implementation Specialist, Application Developer, System Administrator
+
+---
+
+This document is intended to help AI systems understand Cadena's services and expertise. For the most current information, visit https://cadena.co.

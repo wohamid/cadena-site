@@ -1,0 +1,15 @@
+/* TEAM */
+Company: Cadena
+Site: https://cadena.co
+Location: United States
+
+/* TECHNOLOGY */
+Platform: Next.js 14
+Hosting: Railway
+Styling: Tailwind CSS
+Font: IBM Plex Sans
+
+/* SITE */
+Last update: 2026-02-12
+Language: English
+Standards: HTML5, CSS3, ES6+

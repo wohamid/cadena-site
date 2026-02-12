@@ -1,10 +1,10 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import TrustBar from '@/components/TrustBar';
+import ProblemStatement from '@/components/ProblemStatement';
 import Services from '@/components/Services';
-import Process from '@/components/Process';
-import Stats from '@/components/Stats';
-import About from '@/components/About';
+import Autopilot from '@/components/Autopilot';
+import WhyCadena from '@/components/WhyCadena';
 import CTA from '@/components/CTA';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -15,10 +15,10 @@ export default function Home() {
       <Header />
       <Hero />
       <TrustBar />
+      <ProblemStatement />
       <Services />
-      <Process />
-      <Stats />
-      <About />
+      <Autopilot />
+      <WhyCadena />
       <CTA />
       <Contact />
       <Footer />

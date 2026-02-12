@@ -11,7 +11,7 @@ export default function Hero() {
       
       {/* Subtle pattern overlay */}
       <div 
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-5"
         style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
         }}
@@ -26,58 +26,36 @@ export default function Hero() {
               <Image
                 src="/images/servicenow-partner-consulting.jpg"
                 alt="ServiceNow Consulting Partner"
-                width={120}
-                height={120}
-                className="rounded-lg"
+                width={100}
+                height={100}
+                className="rounded-lg bg-white/10 p-2"
               />
               <Image
                 src="/images/servicenow-partner-platform.jpg"
                 alt="ServiceNow Platform Partner"
-                width={120}
-                height={120}
-                className="rounded-lg"
+                width={100}
+                height={100}
+                className="rounded-lg bg-white/10 p-2"
               />
             </div>
 
-            {/* Headline */}
+            {/* Headline - Exact copy from brief */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Put Your SAM on{' '}
-              <span className="text-[#ccff00]">Autopilot</span>
+              Your SAM program wasn&apos;t built for AI.{' '}
+              <span className="text-[#ccff00]">We fix that.</span>
             </h1>
 
             <p className="text-xl sm:text-2xl text-gray-200 mb-8 leading-relaxed">
-              We implement ServiceNow&apos;s AI tools to automate your Software Asset Management—giving you complete visibility, automated compliance, and continuous optimization without the manual overhead.
+              Cadena is a boutique ServiceNow consultancy helping Fortune 500 enterprises manage software assets—from legacy chaos to AI-era complexity. We build SAM programs designed for autopilot.
             </p>
 
-            {/* Key benefits */}
-            <div className="flex flex-wrap gap-6 mb-10">
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#ccff00]" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-200">AI-Powered Automation</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#ccff00]" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-200">40% Cost Reduction</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#ccff00]" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-200">100% License Visibility</span>
-              </div>
-            </div>
-
-            {/* CTAs */}
+            {/* CTAs - Exact copy from brief */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="#contact"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#004040] font-semibold rounded-lg hover:bg-gray-100 transition-all transform hover:scale-105"
+                className="inline-flex items-center justify-center px-8 py-4 bg-[#ccff00] text-[#004040] font-semibold rounded-lg hover:bg-white transition-all transform hover:scale-105"
               >
-                Get Free Assessment
+                Talk to a SAM Expert
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -86,7 +64,7 @@ export default function Hero() {
                 href="#services"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors"
               >
-                See How It Works
+                See Our Services
               </Link>
             </div>
           </div>
@@ -106,7 +84,7 @@ export default function Hero() {
               </div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-24 h-24 rounded-full bg-[#ccff00] flex items-center justify-center">
-                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-12 h-12 text-[#004040]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
@@ -120,7 +98,7 @@ export default function Hero() {
                 Auto-Reclamation
               </div>
               <div className="absolute top-1/2 right-0 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm text-white">
-                Compliance
+                Zero Audit Surprises
               </div>
             </div>
           </div>

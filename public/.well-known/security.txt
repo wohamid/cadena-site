@@ -1,0 +1,5 @@
+# Cadena Security Contact
+Contact: mailto:security@cadena.co
+Expires: 2027-02-12T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://cadena.co/.well-known/security.txt
