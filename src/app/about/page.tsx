@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'About Cadena | Boutique ServiceNow SAM Consultancy',
-  description: 'Cadena is a boutique ServiceNow consulting firm specializing exclusively in Software Asset Management. Founded by a career practitioner with 17+ years in enterprise software and 13 years in ServiceNow.',
+  description: 'Cadena is a boutique ServiceNow consulting firm specializing exclusively in Software Asset Management. Founded by career practitioners with deep enterprise software and ServiceNow expertise.',
   keywords: 'servicenow consulting partner, it asset management consulting, servicenow partner, software asset management consulting, servicenow sam expert',
   alternates: {
     canonical: 'https://cadena.co/about',
@@ -62,13 +62,10 @@ export default function AboutPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-gray-600">
                 <p className="mb-6">
-                  <strong className="text-[#004040]">17 years in enterprise software. 13 years in ServiceNow.</strong> Implementations across Fortune 500 enterprises spanning telecom, financial services, technology, and manufacturing. Deep expertise in CMDB, CSDM, and domain separation.
+                  <strong className="text-[#004040]">Career practitioners. Fortune 500 implementations.</strong> Deep experience across telecom, financial services, technology, and manufacturing. Expertise in CMDB, CSDM, and domain separation.
                 </p>
                 <p className="mb-6">
                   Why does Cadena exist? Because big consultancies send the A-team to sell and the B-team to deliver. At Cadena, senior people design AND implement. Small by design means excellent by design.
-                </p>
-                <p className="mb-6">
-                  <strong className="text-[#004040]">Community leadership:</strong> Charlotte ServiceNow Developer meetup organizer, Mecklenburg County IT Advisory Committee member, IAITAM ACE speaker, regular presenter at ServiceNow events.
                 </p>
                 <p>
                   <strong className="text-[#004040]">Current focus:</strong> The SAM + AI intersection. Putting SAM on autopilot using ServiceNow&apos;s AI capabilities while building the reliable data foundations that make automation possible.
@@ -78,20 +75,20 @@ export default function AboutPage() {
             <div className="bg-gray-50 rounded-xl p-8">
               <div className="grid grid-cols-2 gap-6 text-center mb-8">
                 <div className="p-4">
-                  <div className="text-4xl font-bold text-[#004040]">17</div>
-                  <div className="text-sm text-gray-600">Years Enterprise Software</div>
-                </div>
-                <div className="p-4">
-                  <div className="text-4xl font-bold text-[#004040]">13</div>
-                  <div className="text-sm text-gray-600">Years ServiceNow</div>
-                </div>
-                <div className="p-4">
                   <div className="text-4xl font-bold text-[#004040]">F500</div>
                   <div className="text-sm text-gray-600">Client Base</div>
                 </div>
                 <div className="p-4">
                   <div className="text-4xl font-bold text-[#004040]">100%</div>
                   <div className="text-sm text-gray-600">SAM Focus</div>
+                </div>
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-[#004040]">10+</div>
+                  <div className="text-sm text-gray-600">Industries Served</div>
+                </div>
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-[#004040]">Senior</div>
+                  <div className="text-sm text-gray-600">Practitioners Only</div>
                 </div>
               </div>
               
