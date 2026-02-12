@@ -19,6 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'ai-software-asset-management',
     'audit-defense',
     'ai-license-optimization',
+    'software-rationalization',
+    'saas-license-management',
+    'cloud-cost-management',
   ].map((slug) => ({
     url: `${baseUrl}/services/${slug}`,
     lastModified: currentDate,

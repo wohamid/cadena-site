@@ -5,7 +5,7 @@ import Link from 'next/link';
 const coreSamServices = [
   {
     title: 'SAM Pro Implementation',
-    description: 'Full ServiceNow SAM Pro deployment with clean data foundation, OT discovery, vulnerability convergence, and time-to-value in months-not years.',
+    description: 'Full ServiceNow SAM Pro deployment with clean data foundation, OT discovery, vulnerability convergence, and time-to-value in months - not years.',
     href: '/services/sam-pro-implementation',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -38,7 +38,7 @@ const coreSamServices = [
 const aiEraSamServices = [
   {
     title: 'AI Software Asset Management',
-    description: 'Discover, classify, and govern Shadow AI. We find the AI tools your employees are buying without IT\'s knowledge and bring them under governance.',
+    description: 'Discover, classify, and govern Shadow AI. We find the AI tools your employees are buying without IT\'s knowledge.',
     href: '/services/ai-software-asset-management',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -48,7 +48,7 @@ const aiEraSamServices = [
   },
   {
     title: 'Audit Defense & License Compliance',
-    description: 'Be audit-ready before the letter arrives. Publisher-specific expertise for Microsoft, Oracle, SAP, Adobe-plus OT vendors and AI software audits.',
+    description: 'Be audit-ready before the letter arrives. Publisher-specific expertise for Microsoft, Oracle, SAP, Adobe - plus OT and AI.',
     href: '/services/audit-defense',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -58,11 +58,44 @@ const aiEraSamServices = [
   },
   {
     title: 'AI License Optimization',
-    description: 'You\'re spending more on AI software than you think. We make it visible-and recoverable. Typical savings: 20-40% of AI software spend.',
+    description: 'You\'re spending more on AI software than you think. We make it visible - and recoverable. Typical savings: 20-40%.',
     href: '/services/ai-license-optimization',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+  },
+];
+
+const costGovernanceServices = [
+  {
+    title: 'Software Rationalization',
+    description: 'Headcount dropped 20%, software spend didn\'t. We reclaim licenses during layoffs, reorgs, and M&A. Recover 20-35% in 90 days.',
+    href: '/services/software-rationalization',
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+      </svg>
+    ),
+  },
+  {
+    title: 'SaaS License Management',
+    description: 'You have 300 SaaS apps. You need 200. We find the other 100 and eliminate sprawl, redundancies, and renewal waste.',
+    href: '/services/saas-license-management',
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Cloud Cost Management & FinOps',
+    description: 'Your FinOps team optimizes infrastructure. Nobody\'s optimizing cloud software licenses. We bridge the gap.',
+    href: '/services/cloud-cost-management',
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
       </svg>
     ),
   },
@@ -75,15 +108,15 @@ export default function Services() {
         {/* Section heading */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#004040] mb-4">
-            One firm. Six ways we help.
+            One firm. Nine ways we help.
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From foundational SAM implementations to AI-era governance, we cover the full spectrum of software asset management.
+            From foundational SAM implementations to AI-era governance and cost optimization, we cover the full spectrum of software asset management.
           </p>
         </div>
 
         {/* Tier 1: Core SAM */}
-        <div className="mb-16">
+        <div className="mb-12">
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px flex-1 bg-[#004040]/20" />
             <h3 className="text-lg font-semibold text-[#004040] uppercase tracking-wider">Core SAM</h3>
@@ -118,7 +151,7 @@ export default function Services() {
         </div>
 
         {/* Tier 2: AI-Era SAM */}
-        <div>
+        <div className="mb-12">
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px flex-1 bg-[#ccff00]" />
             <h3 className="text-lg font-semibold text-[#004040] uppercase tracking-wider">AI-Era SAM</h3>
@@ -142,6 +175,41 @@ export default function Services() {
                   {service.description}
                 </p>
                 <span className="inline-flex items-center text-[#ccff00] font-medium">
+                  Learn more
+                  <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Tier 3: Cost & Governance */}
+        <div>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="h-px flex-1 bg-[#004040]/20" />
+            <h3 className="text-lg font-semibold text-[#004040] uppercase tracking-wider">Cost & Governance</h3>
+            <div className="h-px flex-1 bg-[#004040]/20" />
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            {costGovernanceServices.map((service) => (
+              <Link
+                key={service.title}
+                href={service.href}
+                className="group bg-white rounded-xl p-8 border border-gray-200 hover:border-[#004040] hover:shadow-lg transition-all"
+              >
+                <div className="text-[#004040] mb-6 group-hover:text-[#ccff00] transition-colors">
+                  {service.icon}
+                </div>
+                <h4 className="text-xl font-bold text-[#004040] mb-3 group-hover:text-[#004040]">
+                  {service.title}
+                </h4>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  {service.description}
+                </p>
+                <span className="inline-flex items-center text-[#004040] font-medium group-hover:text-[#006666]">
                   Learn more
                   <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

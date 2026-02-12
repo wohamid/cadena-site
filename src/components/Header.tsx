@@ -10,6 +10,9 @@ const services = [
   { href: '/services/ai-software-asset-management', label: 'AI Software Asset Management', description: 'Shadow AI discovery & governance' },
   { href: '/services/audit-defense', label: 'Audit Defense', description: 'License compliance & readiness' },
   { href: '/services/ai-license-optimization', label: 'AI License Optimization', description: 'Right-size AI software spend' },
+  { href: '/services/software-rationalization', label: 'Software Rationalization', description: 'Workforce transition license reclamation' },
+  { href: '/services/saas-license-management', label: 'SaaS License Management', description: 'SaaS sprawl & spend governance' },
+  { href: '/services/cloud-cost-management', label: 'Cloud Cost Management & FinOps', description: 'Cloud license optimization' },
 ];
 
 const industries = [
