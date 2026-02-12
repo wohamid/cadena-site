@@ -6,37 +6,30 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'About Cadena | Boutique ServiceNow SAM Consultancy',
-  description: 'Cadena is a boutique ServiceNow consulting firm specializing in SAM Pro implementations for Fortune 500 enterprises. 17 years of enterprise software expertise. SAM Pro is all we do.',
-  keywords: 'servicenow partner, servicenow implementation partner, it asset management consulting, software asset management consulting',
+  description: 'Cadena is a boutique ServiceNow consulting firm specializing exclusively in Software Asset Management. Founded by a career practitioner with 17+ years in enterprise software and 13 years in ServiceNow.',
+  keywords: 'servicenow consulting partner, it asset management consulting, servicenow partner, software asset management consulting, servicenow sam expert',
   alternates: {
     canonical: 'https://cadena.co/about',
   },
 };
 
-const values = [
+const differentiators = [
   {
-    title: 'SAM Pro Is All We Do',
-    description: 'We\'re not a generalist shop trying to be everything to everyone. ServiceNow SAM Pro is our entire practice. That focus means deeper expertise and better outcomes.',
+    title: 'Exclusive SAM Focus',
+    description: 'Our entire team, methodology, and IP is built around SAM. No ITSM, no CSM, no HR modules. Just SAM Pro, implemented by career practitioners.',
   },
   {
-    title: 'Data Foundation First',
-    description: 'Every engagement starts with data quality. We don\'t move forward until discovery is complete, normalization is high, and entitlements are accurate. That\'s how SAM actually works.',
+    title: 'Fortune 500 Track Record',
+    description: 'Named clients, massive software estates, complex licensing scenarios, real stakes. We\'ve delivered SAM programs where failure wasn\'t an option.',
   },
   {
-    title: 'Build for Autopilot',
-    description: 'Every implementation is designed for ServiceNow\'s AI features to work-not just today, but as AI capabilities expand. We build the foundation for autonomous operations.',
+    title: 'Senior People Do the Work',
+    description: 'No bait-and-switch staffing. 10+ year practitioners design AND implement. At Cadena, the people you meet are the people who do the work.',
   },
   {
-    title: 'Relationship Over Transaction',
-    description: 'We\'re a boutique firm because we care about long-term partnerships, not project churn. Our clients come back because we deliver, not because we have sales quotas.',
+    title: 'Forward-Looking',
+    description: 'Shadow AI, consumption-based licensing, OT software compliance, application vulnerability management, autonomous IT. We\'re building for where SAM is going, not just where it is.',
   },
-];
-
-const certifications = [
-  'ServiceNow Certified Implementation Specialist - ITAM',
-  'ServiceNow Certified Application Developer',
-  'ServiceNow Certified System Administrator',
-  'ITIL Foundation Certified',
 ];
 
 export default function AboutPage() {
@@ -49,101 +42,98 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Boutique expertise.{' '}
-              <span className="text-[#ccff00]">Enterprise results.</span>
+              SAM is all we do.{' '}
+              <span className="text-[#ccff00]">That&apos;s why we&apos;re better at it.</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Cadena is a boutique ServiceNow consulting firm specializing in Software Asset Management. We do one thing-SAM Pro-and we do it exceptionally well.
+              No ITSM, no CSM, no HR modules. Just SAM Pro, implemented by career practitioners who&apos;ve spent their careers in software asset management.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Our Story */}
+      {/* Founder Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#004040] mb-6">
-                Why We Exist
+                Built by a practitioner, not a sales team.
               </h2>
               <div className="prose prose-lg max-w-none text-gray-600">
                 <p className="mb-6">
-                  We started Cadena because we saw a pattern: enterprises investing millions in SAM tools that never delivered. Not because the platforms were bad, but because the implementations were wrong.
+                  <strong className="text-[#004040]">17 years in enterprise software. 13 years in ServiceNow.</strong> Implementations across Fortune 500 enterprises spanning telecom, financial services, technology, and manufacturing. Deep expertise in CMDB, CSDM, and domain separation.
                 </p>
                 <p className="mb-6">
-                  Big consultancies send junior resources. They rush through data foundations. They deliver systems that technically work but don&apos;t actually solve the problem. Then they move on to the next engagement.
+                  Why does Cadena exist? Because big consultancies send the A-team to sell and the B-team to deliver. At Cadena, senior people design AND implement. Small by design means excellent by design.
+                </p>
+                <p className="mb-6">
+                  <strong className="text-[#004040]">Community leadership:</strong> Charlotte ServiceNow Developer meetup organizer, Mecklenburg County IT Advisory Committee member, IAITAM ACE speaker, regular presenter at ServiceNow events.
                 </p>
                 <p>
-                  We built Cadena to be different. <strong className="text-[#004040]">Boutique expertise with enterprise capability.</strong> Senior practitioners who understand that SAM is a data problem first and a platform problem second. Partners who stick around until it actually works.
+                  <strong className="text-[#004040]">Current focus:</strong> The SAM + AI intersection. Putting SAM on autopilot using ServiceNow&apos;s AI capabilities while building the reliable data foundations that make automation possible.
                 </p>
               </div>
             </div>
             <div className="bg-gray-50 rounded-xl p-8">
-              <div className="text-center mb-6">
-                <div className="text-5xl font-bold text-[#004040]">17</div>
-                <div className="text-gray-600">Years in Enterprise Software</div>
-              </div>
-              <div className="grid grid-cols-2 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-[#004040]">Fortune 500</div>
+              <div className="grid grid-cols-2 gap-6 text-center mb-8">
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-[#004040]">17</div>
+                  <div className="text-sm text-gray-600">Years Enterprise Software</div>
+                </div>
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-[#004040]">13</div>
+                  <div className="text-sm text-gray-600">Years ServiceNow</div>
+                </div>
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-[#004040]">F500</div>
                   <div className="text-sm text-gray-600">Client Base</div>
                 </div>
-                <div>
-                  <div className="text-3xl font-bold text-[#004040]">100%</div>
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-[#004040]">100%</div>
                   <div className="text-sm text-gray-600">SAM Focus</div>
                 </div>
               </div>
+              
+              {/* Partner badges */}
+              <div className="border-t pt-6">
+                <p className="text-sm text-gray-500 mb-4 text-center">ServiceNow Partner</p>
+                <div className="flex justify-center gap-4">
+                  <Image
+                    src="/images/servicenow-partner-consulting.jpg"
+                    alt="ServiceNow Consulting Partner"
+                    width={80}
+                    height={80}
+                    className="rounded-lg"
+                  />
+                  <Image
+                    src="/images/servicenow-partner-platform.jpg"
+                    alt="ServiceNow Platform Partner"
+                    width={80}
+                    height={80}
+                    className="rounded-lg"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Partner Status */}
-      <section className="py-16 bg-gray-50 border-y">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-            <div className="text-center md:text-left">
-              <h3 className="text-lg font-semibold text-gray-500 mb-2">ServiceNow Partner</h3>
-              <p className="text-gray-600">Certified consulting and implementation partner</p>
-            </div>
-            <div className="flex gap-6">
-              <Image
-                src="/images/servicenow-partner-consulting.jpg"
-                alt="ServiceNow Consulting Partner"
-                width={100}
-                height={100}
-                className="rounded-lg"
-              />
-              <Image
-                src="/images/servicenow-partner-platform.jpg"
-                alt="ServiceNow Platform Partner"
-                width={100}
-                height={100}
-                className="rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Values */}
-      <section className="py-20 bg-white">
+      {/* Differentiators */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#004040] mb-4">
-              How We Work
+              What Makes Cadena Different
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Four principles that guide every engagement.
-            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {values.map((value, index) => (
+            {differentiators.map((item, index) => (
               <div 
-                key={value.title}
-                className="flex gap-6 p-6"
+                key={item.title}
+                className="flex gap-6 p-6 bg-white rounded-xl"
               >
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 bg-[#004040] rounded-lg flex items-center justify-center">
@@ -151,34 +141,9 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#004040] mb-2">{value.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                  <h3 className="text-xl font-bold text-[#004040] mb-2">{item.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{item.description}</p>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Certifications */}
-      <section className="py-20 bg-[#004040] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Certifications & Expertise
-            </h2>
-            <p className="text-xl text-gray-200">
-              Our team holds the certifications that matter for SAM.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-            {certifications.map((cert) => (
-              <div 
-                key={cert}
-                className="bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full text-white"
-              >
-                {cert}
               </div>
             ))}
           </div>
@@ -212,19 +177,19 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#004040]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#004040] mb-6">
-            Let&apos;s talk about your SAM challenges.
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            Let&apos;s have a conversation.
           </h2>
-          <p className="text-xl text-gray-600 mb-8">
-            30-minute call. No sales pitch. Just a conversation about what you&apos;re trying to solve.
+          <p className="text-xl text-gray-200 mb-8">
+            No pressure. No sales pitch. Just a conversation about your SAM challenges and whether we might be able to help.
           </p>
           <Link
             href="/#contact"
-            className="inline-flex items-center px-10 py-5 bg-[#004040] text-white text-lg font-bold rounded-lg hover:bg-[#003333] transition-all"
+            className="inline-flex items-center px-10 py-5 bg-[#ccff00] text-[#004040] text-lg font-bold rounded-lg hover:bg-white transition-all"
           >
-            Book a Free Consultation
+            Book a Conversation
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
