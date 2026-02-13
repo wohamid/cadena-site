@@ -18,29 +18,24 @@ const industries = [
     description: 'Trading platforms, SOX/PCI compliance, core banking modernization',
   },
   { 
+    href: '/industries/automotive', 
+    label: 'Automotive',
+    description: 'Manufacturing OT, CAD/PLM licensing, supply chain',
+  },
+  { 
+    href: '/industries/high-tech', 
+    label: 'High Tech',
+    description: 'Developer tools, SaaS sprawl, AI adoption, cloud consumption',
+  },
+  { 
     href: '/industries/healthcare', 
     label: 'Healthcare',
     description: 'EHR licensing, HIPAA compliance, medical device software',
   },
   { 
-    href: '/industries/defense', 
-    label: 'Defense',
-    description: 'ITAR/CMMC compliance, classified environments, weapons systems',
-  },
-  { 
-    href: '/industries/energy', 
-    label: 'Energy & Utilities',
-    description: 'SCADA/OT software, NERC CIP compliance, grid management',
-  },
-  { 
-    href: '/industries/technology', 
-    label: 'Technology',
-    description: 'SaaS management, AI tool governance, developer tools',
-  },
-  { 
-    href: '/industries/automotive', 
-    label: 'Automotive',
-    description: 'Manufacturing OT, CAD/PLM licensing, supply chain',
+    href: '/industries/telco', 
+    label: 'Telecommunications',
+    description: 'Network management, OSS/BSS platforms, 5G infrastructure',
   },
   { 
     href: '/industries/insurance', 
@@ -63,9 +58,9 @@ const industries = [
     description: 'GxP-validated software, FDA compliance, R&D platforms',
   },
   { 
-    href: '/industries/telco', 
-    label: 'Telecommunications',
-    description: 'Network management, OSS/BSS platforms, 5G infrastructure',
+    href: '/industries/defense', 
+    label: 'Defense',
+    description: 'ITAR/CMMC compliance, classified environments, weapons systems',
   },
 ];
 

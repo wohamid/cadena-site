@@ -17,16 +17,15 @@ const services = [
 
 const industries = [
   { href: '/industries/banking', label: 'Banking & Finance' },
-  { href: '/industries/healthcare', label: 'Healthcare' },
-  { href: '/industries/defense', label: 'Defense' },
-  { href: '/industries/energy', label: 'Energy' },
-  { href: '/industries/technology', label: 'Technology' },
   { href: '/industries/automotive', label: 'Automotive' },
+  { href: '/industries/high-tech', label: 'High Tech' },
+  { href: '/industries/healthcare', label: 'Healthcare' },
+  { href: '/industries/telco', label: 'Telecommunications' },
   { href: '/industries/insurance', label: 'Insurance' },
   { href: '/industries/consumer-goods', label: 'Consumer Goods' },
   { href: '/industries/retail', label: 'Retail' },
   { href: '/industries/life-sciences', label: 'Life Sciences' },
-  { href: '/industries/telco', label: 'Telecommunications' },
+  { href: '/industries/defense', label: 'Defense' },
 ];
 
 export default function Header() {

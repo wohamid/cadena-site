@@ -32,16 +32,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Industry pages
   const industryPages = [
     'banking',
-    'healthcare',
-    'defense',
-    'energy',
-    'technology',
     'automotive',
+    'high-tech',
+    'healthcare',
+    'telco',
     'insurance',
     'consumer-goods',
     'retail',
     'life-sciences',
-    'telco',
+    'defense',
   ].map((slug) => ({
     url: `${baseUrl}/industries/${slug}`,
     lastModified: currentDate,
